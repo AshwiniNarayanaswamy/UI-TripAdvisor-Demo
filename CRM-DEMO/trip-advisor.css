@@ -1,196 +1,41 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing:border-box;
-}
-body {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    color: #000;
-    font-family: Arial,Tahoma,Bitstream Vera Sans,sans-serif;
-    font-size: medium;
-}
-div#Main-container {
-    width: 70%;
-    margin: 0 auto;
-}
-.top-header {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 10px;
-}
-.left-head-content {
-    width: 20%;
-}
-.left-head-content img {
-    width: 100%;;
-}
-.sign-in-data {
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-    margin-top: 2px;
-}
-.sign-in-data a {
-    color: #000;
-    font-weight: bold;
-    margin: 4px;
-    font-size: 18px;
-    text-decoration: none;
-    cursor: pointer;
-    display: flex;
-    margin: 2px;
-    padding: 10px 16px
-}
-.sign-in-data a:hover {
-    border-radius: 20px;
-    background: rgba(0,0,0,.07);
-    
-}
-span.signin {
-    background: #000;
-    color: #fff;
-    border-radius: 20px;
-}
-.sign-in-data span.signin a {color: #fff;}
-.sign-in-data span.signin a:hover {background: #333;}
-.nav {
-    display: flex;
-    justify-content: space-between;
-    margin: 10px 0px;
-}
-.nav-data {
-    width: 15%;
-}
-.nav-data a {
-    background-color: #fff;
-    border: 1px solid #000;
-    color: #000;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    gap: 12px;
-    min-width: 150px;
-    padding: 16px;
-    transition: background-color .2s,color .2s;
-    text-decoration: none;
-    border-radius: 12px;
-    font-size: 16px;
-    font-weight: bold;
-}
-.first-data {
-    position: relative;
-    margin-top: 20px;
-}
-.first-data img {
-    width: 100%;
-    display: block;
-}
-.search-div {
-    width: 100%;
-    position: absolute;
-    margin: 0 auto;
-    top: 50%;
-    display: flex;
-    justify-content: center;
-}
-input.search {
-    width: 50%;
-    padding: 20px;
-    border: 1px solid #000;
-    border-radius: 20px;
-}
-.second-data {
-    margin: 40px 0px;
-}
-.second-context {
-    position: relative;
-}
-.sec-img {
-    height: 500px;
-    width: 100%;
-    display: block;
-}
-.second-data img {
-    object-fit: cover;
-    object-position: top;
-    height: 100%;
-    width: 100%;
-}
-.sec-content {
-    position: absolute;
-    top: 70%;
-    left: 20px;
-}
-.sec-div {
-    display: flex;
-    flex-wrap: wrap;
-}
-h2.sec-head {
-    color: #fff;
-    font-size: 32px;
-    width: 100%;
-}
-
-.biGQs {
-    color: #fff;
-    font-size: 20px;
-    font-weight: bold;
-    margin-top: 4px;
-    width: 100%;
-}
-a.second-link {
-    background: #fff;
-    color: #000;
-    text-decoration: none;
-    padding: 14px 30px;
-    border-radius: 41px;
-    display: block;
-    margin: 4px 0px;
-}
-ul.TAcAQ {
-    display: flex;
-    justify-content: space-between;
-}
-ul.TAcAQ img {
-    width: auto;
-}
-.slick-prev, .slick-next {
-    color: #000;
-    background: #000;
-}
-div#header {
-    margin-top: 30px;
-}
-div#paragrp {
-    font-size: 18px;
-    margin: 6px 0px;
-}
-
-div#tripdynamicimages {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: nowrap;
-}
-.tripimages {
-    width: 25%;
-    padding: 6px;
-}
-.tripimages img {
-    width: 100%;
-    object-fit: contain;
-}
-.tripimages img:hover{opacity: 0.8;}
-.tripimages a:hover{text-decoration: underline;}
-.tripimages a {
-    color: #000;
-    font-weight: bold;
-    text-decoration: none;
-    font-size: 18px;
-}
-.tripimages .rating { font-size: 16px;}
-.tripimages .price { font-size: 16px;font-weight: bold;color: green;}
-
-
-
-
+*{margin:0;padding:0;box-sizing:border-box}
+body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;color:#000;font-family:Arial,Tahoma,Bitstream Vera Sans,sans-serif;font-size:medium}
+div#Main-container{width:70%;margin:0 auto}
+.top-header{display:flex;justify-content:space-between;margin-top:10px}
+.left-head-content{width:20%}
+.left-head-content img{width:100%}
+.sign-in-data{display:flex;flex-wrap:nowrap;align-items:center;margin-top:2px}
+.sign-in-data a{color:#000;font-weight:700;font-size:18px;text-decoration:none;cursor:pointer;display:flex;margin:2px;padding:10px 16px}
+.sign-in-data a:hover{border-radius:20px;background:rgba(0,0,0,.07)}
+span.signin{background:#000;color:#fff;border-radius:20px}
+.sign-in-data span.signin a{color:#fff}
+.sign-in-data span.signin a:hover{background:#333}
+.nav{display:flex;justify-content:space-between;margin:10px 0}
+.nav-data{width:15%}
+.nav-data a{background-color:#fff;border:1px solid #000;color:#000;display:-webkit-flex;display:-ms-flexbox;display:flex;gap:12px;min-width:150px;padding:16px;transition:background-color .2s,color .2s;text-decoration:none;border-radius:12px;font-size:16px;font-weight:700}
+.first-data{position:relative;margin-top:20px}
+.first-data img{width:100%;display:block}
+.search-div{width:100%;position:absolute;margin:0 auto;top:50%;display:flex;justify-content:center}
+input.search{width:50%;padding:20px;border:1px solid #000;border-radius:20px}
+.second-data{margin:40px 0}
+.second-context{position:relative}
+.sec-img{height:500px;width:100%;display:block}
+.second-data img{object-fit:cover;object-position:top;height:100%;width:100%}
+.sec-content{position:absolute;top:70%;left:20px}
+.sec-div{display:flex;flex-wrap:wrap}
+h2.sec-head{color:#fff;font-size:32px;width:100%}
+.biGQs{color:#fff;font-size:20px;font-weight:700;margin-top:4px;width:100%}
+a.second-link{background:#fff;color:#000;text-decoration:none;padding:14px 30px;border-radius:41px;display:block;margin:4px 0}
+ul.TAcAQ{display:flex;justify-content:space-between}
+ul.TAcAQ img{width:auto}
+.slick-next,.slick-prev{color:#000;background:#000}
+div#header{margin-top:30px}
+div#paragrp{font-size:18px;margin:6px 0}
+div#tripdynamicimages{display:flex;justify-content:space-between;flex-wrap:nowrap}
+.tripimages{width:25%;padding:6px}
+.tripimages img{width:100%;object-fit:contain}
+.tripimages img:hover{opacity:.8}
+.tripimages a:hover{text-decoration:underline}
+.tripimages a{color:#000;font-weight:700;text-decoration:none;font-size:18px}
+.tripimages .rating{font-size:16px}
+.tripimages .price{font-size:16px;font-weight:700;color:green}
